@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+.text-small {
+  font-size: 0.9rem !important;
+}
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+body {
+  background: rgb(0, 219, 135);
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(0, 176, 117),
+    rgb(0, 219, 135)
+  );
+  background: linear-gradient(to right, rgb(0, 176, 147), #00b4db);
+  color: #514b64;
+  min-height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .maincontainer .container:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .maincontainer .container:hover .btn {
+    opacity: 1;
+  }
+}
